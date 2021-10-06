@@ -1,0 +1,13 @@
+Package: MeanComparer
+Title: Conduct Significance, Equivalence, Non-inferiority and Superiorty tests between means.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matías", "Schrauf", , "matiasfschrauf@agro.uba.ar", role = c("aut", "cre"))
+    person("Sebastián", "Munilla", , "", role = c("aut"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Conduct Significance, Equivalence, Non-inferiority and Superiorty tests between means.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
