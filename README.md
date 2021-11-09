@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Conduct Significance, Equivalence, Non-inferiority and Superiorty tests between mean accuracies of models,
+Conduct Significance, Equivalence, Non-inferiority and Superiority tests between mean accuracies of models,
 as assessed with resampling methods such as cross validations.
 
 Companion to work (in press):
