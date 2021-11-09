@@ -13,3 +13,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 URL: https://github.com/schrauf/AccuracyComparer
 BugReports: https://github.com/schrauf/AccuracyComparer/issues
+Imports: 
+    emmeans,
+    igraph
