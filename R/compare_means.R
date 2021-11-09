@@ -57,7 +57,7 @@ calcSD <- function(ci, make_plot=TRUE) {
     E <- c(t(labels[!H1,]))
     isolates <- setdiff(V, unique(c(E)))
     sdGr <- igraph::graph(E, isolates = isolates, directed = F)
-    make_plot && plot(sdGr)
+    if (make_plot) plot(sdGr)
     mc <- igraph::max_cliques(sdGr)
     out <- character(length(V))
     for(i in seq_along(mc)) {
@@ -80,7 +80,7 @@ calcEQ <- function(ci, upper_margin, lower_margin, make_plot=TRUE) {
     E <- c(t(labels[H1,]))
     isolates <- setdiff(V, unique(c(E)))
     sdGr <- igraph::graph(E, isolates = isolates, directed = F)
-    make_plot && plot(sdGr)
+    if (make_plot) plot(sdGr)
     mc <- igraph::max_cliques(sdGr)
     out <- character(length(V))
     for(i in seq_along(mc)) {
