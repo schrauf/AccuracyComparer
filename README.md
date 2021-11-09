@@ -4,7 +4,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of AccuracyComparer is to conduct Significance, Equivalence, Non-inferiority and Superiorty tests between means.
+Conduct Significance, Equivalence, Non-inferiority and Superiorty tests between mean accuracies of models,
+as assessed with resampling methods such as cross validations.
 
 Companion to work (in press):
 > Matías F. Schrauf, Gustavo de Los Campos y Sebastián Munilla. “Comparing genomic prediction models by means of cross validation.” Genomic Selection: Lessons Learned and Perspectives. Special topic in Frontiers in Plant Science (2021): 2648.
